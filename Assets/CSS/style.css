@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.display-set{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h-100vh{
+    height: 100vh;
+}
+.bgLight{
+    background-color: #f1f1f1;
+}
+
+.wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.ptb-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.login{
+    background: white;
+    display:flex;
+
+}
+.left, .right{
+    width: 50%;
+}
+.right{
+    padding: 30px;
+}
+.formInput{
+    margin-bottom: 20px;
+}
+.remember{
+    margin-bottom: 20px;
+}
+.formInput label{
+    font-size: 14px;
+}
+.formInput input{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 36px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.loginBtn{
+    background-color:orange;
+    border: unset;
+    color: white;
+    width: 100%;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.loginBtn:hover{
+    box-shadow: 0 2px 2px 0 lightcoral;
+    cursor: pointer;
+}
+
+img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
